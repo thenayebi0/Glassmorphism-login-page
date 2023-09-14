@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins";
+    background-color: #080710;
+}
+input, button{
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
+.circles{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.circles .circle_to {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+}
+.circles :first-child{ 
+    background-color: #039BE5;
+    left: -80px;
+    top: -80px;
+} 
+.circles :last-child {
+    background-color: #FFB300;
+    right: -30px;
+    bottom: -80px;
+}
+.contaner-form{
+    width: 400px;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form{
+    width: 400px;
+    padding: 50px 35px 35px;
+    color: #fff;
+    background-color: rgb(255, 255, 255,0.13);
+    border: 2px solid rgb(255, 255, 255,0.13);
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+}
+.title-form{
+    text-align: center;
+    font-weight: 500;
+    line-height: 42px;
+    margin: 21px;
+}
+.input{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255,0.07);
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0 10px;
+    margin: 13px 0 50px;
+    border: 1px solid rgb(255, 255, 255,0.07);
+    border-radius: 3px;
+}
+.clickable{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #fff;
+    color: #080710;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
